@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",
+      // 查找、解析模块规则
+      "moduleResolution": "NodeNext",
+      // 启用装饰器
+      "experimentalDecorators": true,
+      // 编译目标版本
+      "target": "ES2021", 
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "incremental": true,
+      "skipLibCheck": true,
+      "strictNullChecks": false,
+      "noImplicitAny": false,
+      "strictBindCallApply": false,
+      "forceConsistentCasingInFileNames": false,
+      "noFallthroughCasesInSwitch": false,
+    }
+  }
+  
